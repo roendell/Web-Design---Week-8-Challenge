@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 8 Challenge</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <script type="text/javascript">
+      var name;
+      name = prompt("Enter name", "Type here");
+      alert("Welcome " + name);
+    </script>
+
+
+    <script type="text/javascript">
+      var age = prompt("Enter your age:");
+      var parsedAgeValue = parseInt(age);
+      if ( (age > 17) ){
+        document.write("You now have access to the website")
+      }else{
+        document.write("You do not have access to the website")
+      }
+    </script>
+
+
+    <script type="text/javascript">
+      var number = parseInt(prompt("Guess a number between 1 and 20:"));
+      var parsedNumberValue = parseInt(number);
+
+      var correctNumber = 20;
+
+      if (parsedNumberValue == correctNumber){
+        document.write("Congratulations!")
+      }else {
+        document.write("Try again")
+      }
+    </script>
+
+  </body>
+</html>
